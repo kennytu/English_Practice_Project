@@ -1,0 +1,68 @@
+﻿C: 我在想, 不知道妳今天下午是否能幫個忙?
+E: I was wondering if you help me this afternoon.
+D: 1
+T: wonder 納悶..;想知道
+
+C: 那個辦公室裡的每個人似乎都很聰明
+E: Everyone seems very bright in the office.
+T: seem 似乎; 看來; 好像
+
+
+C: 你什麼時候下班 (get off)?
+E: What time do you get off work?
+
+C: 你什麼時候下班 (finish)?
+E: What time do you finish work?
+
+C: Melissa容易吸引每個男人的目光
+E: Melissa can draw any guy's attention so easily.
+
+C: 嘿! 我剛發現一個叫做 "Movie Freaks Online"的有趣網站哦. 你可以從他們的線上購物網頁中購買任何你喜歡的影片哩! 你可以看一下
+E: Hey, I just found a cool website called "Movie Freaks Online". You can buy any movie that you like from its online shopping page! Check it out.
+D: 3
+
+C: 在閒暇之餘, 我最喜歡做的事情就是和朋友去爬山
+E: During my free time, the thing I like to do best is go hiking in the mountains with my friends
+D: 2
+
+C: 我們通常會在周末起個大早, 去附近的山區走走
+E: On weekends, we usually get up early and go hiking in the nearby mountains.
+D: 2
+
+C: 輪到你唱歌了
+E: It's your turn to sing
+D: 0
+
+C: 如果你有任何問題, 不要猶豫一定要發問
+E: If you have any questions, please do not hesitate to ask.
+D: 1
+
+C: 玩電玩遊戲比其他嗜好更有趣
+E: Playing video games is more fun than any other hobbies.
+D: 1
+
+C: 這台筆記型電腦可以完成任何你想要做的事
+E: This laptop can do anything that you want to do.
+D: 1
+
+C: Jane不管進入任何一所大學就讀, 都應該沒問題
+E: Jane will enter any college without problems.
+
+C: 去問客服部門的任何一位人員, 來釐清那個問題.
+E: Ask anybody in the customer service department about clarifying the issue.
+
+C: 任何一位俱樂部的會員都能使用貴賓室
+E: Any members of the club can use this guesthouse. 
+
+C: 我只要查一個簡單的單字, 任何一本字典都可以
+E: I just need to look up a simple word. Any dictionary will do.
+
+C: 如果汽油還有剩, 在到達加油站之前, 我們應該小心使用, 避免將汽油消耗殆盡.
+E: If there is any gas left, we should use it carefully so that it won't run out before we get to a gas station.
+D: 3
+
+C: 前幾天晚上借你車, 沒什麼啦. 如果你還需要其他任何東西, 別客氣盡管說. 下次見.
+E: No problem with letting you borrow my car the other night. If there's anything else you need from me, just ask.
+D: 3
+
+
