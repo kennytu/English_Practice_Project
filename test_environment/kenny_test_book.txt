@@ -1,0 +1,26 @@
+P: 01-01
+E: Where does it often snow during the winter?
+C: 冬天哪裡會經常下雪?
+B: train_basic_english_30min_everyday
+V: 01-03.mp3
+VS: 2632
+VE: 5472
+TTS: NO
+
+P: 01-02
+E: What often happens in cold places during the winter?
+C: 冬天寒冷的地方通常會發生什麼事情?
+B: train_basic_english_30min_everyday
+V: 01-03.mp3
+VS: 5654
+VE: 9563
+TTS: NO
+
+P: 01-03
+E: I am Kenny and this is a test for tts voice
+C: 我是Kenny, 這是用來測試tts的
+B: train_basic_english_30min_everyday
+V: 01-03-tts.mp3
+VS: 
+VE: 
+TTS: NO
