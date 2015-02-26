@@ -75,7 +75,14 @@ class Quizer(object):
                 t = line[2:].strip()
                 tmp_list.append(t)
                 #print t
-            '''   
+
+            elif line.upper().startswith("V:") is True: #voice start
+                t = line[2:].strip()
+                if t == "" or t is None:
+                    tmp_list.append(None)
+                else:
+                    tmp_list.append(t)
+            
             elif line.upper().startswith("VS:") is True: #voice start
                 t = line[3:].strip()
                 if t == "" or t is None:
@@ -91,23 +98,30 @@ class Quizer(object):
                 else:
                     tmp_list.append(t)
                 #print t
-            '''
+
+            elif line.upper().startswith("TTS:") is True: #voice end
+                t = line[4:].strip()
+                if t == "" or t is None:
+                    tmp_list.append(None)
+                else:
+                    tmp_list.append(t)
+                #print t
+            
         print ("tmp list len:%d"%(len(tmp_list)))
         
         
-        #for ix in range(0, len(tmp_list), 6):
-        for ix in range(0, len(tmp_list), 4):
+        for ix in range(0, len(tmp_list), 8):
             #print "----%s---"%ix
-            x1 = tmp_list[ix]
-            x2 = tmp_list[ix+1]
-            x3 = tmp_list[ix+2]
-            x4 = tmp_list[ix+3]
-            #x5 = tmp_list[ix+4]
-            #x6 = tmp_list[ix+5]
+            x1 = tmp_list[ix]       #P
+            x2 = tmp_list[ix+1]     #E
+            x3 = tmp_list[ix+2]     #C
+            x4 = tmp_list[ix+3]     #B
+            x5 = tmp_list[ix+4]     #V
+            x6 = tmp_list[ix+5]     #VS
+            x7 = tmp_list[ix+6]     #VE
+            x8 = tmp_list[ix+7]     #TTS
            
-            #tmp_quiz = Quiz(x1, x2, x3, x4, x5, x6, self.dir_name)
-            tmp_quiz = Quiz(x1, x2, x3, x4, None, None, self.dir_name)
-            #tmp_quiz = Quiz(x1, x2, x3, x4, self.dir_name)
+            tmp_quiz = Quiz(x1, x2, x3, x4, x5, x6, x7, x8, self.dir_name)
             self.quiz_list.append(tmp_quiz)
             
         

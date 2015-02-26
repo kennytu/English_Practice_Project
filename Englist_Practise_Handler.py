@@ -189,10 +189,9 @@ class Englist_Practise_Handler(object):
         self.current_audio_player =  self.current_quiz.get_audio_player()
         self.view_obj.pb_voice_play.setEnabled(False)
         mp3_time = None
-        #mp3_time = self.current_quiz.get_mp3_track_time()
+        mp3_time = self.current_quiz.get_mp3_track_time()
         if mp3_time != None:
             self.current_audio_player.play(mp3_time[0],mp3_time[1])
-            #mp3_time = self.current_audio_player.seconds()+0.2
             self.timer.start(mp3_time[2] + 100)
         else:
             self.current_audio_player.play()
